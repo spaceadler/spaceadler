@@ -17,7 +17,7 @@ I'm a computer engineering student who's drawn to the layer where hardware physi
 
 That thread runs through most of what ends up in this profile: designing digital logic in VHDL, writing embedded C close to the metal, and occasionally going all the way down to hand-assembling a binary file format byte by byte just to know exactly what a "player" is doing when it hits play. I've built a 16-bit CPU up from a single NAND gate, written the assembly that runs on it, and traced audio samples all the way from a sine function to the raw bytes on disk. I'd rather understand a system completely than trust an abstraction to hide it from me, which also explains why I run and maintain my own self-hosted infrastructure instead of renting someone else's.
 
-I'm oriented toward the aerospace and real-time embedded systems industry, with a specific interest in the System on Chip niche — treating the chip and the firmware as one design problem instead of two separate ones handed off in sequence.
+I'm oriented towards the aerospace and real-time embedded systems industry. I treat chips and the firmware as one design problem instead of two separate ones handed off in sequence, which is why I'm into the specific niche of SoC/Systems Architecture.
 
 ---
 
