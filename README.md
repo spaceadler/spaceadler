@@ -1,6 +1,6 @@
 <div align="center">
 
-# Computer Engineering · Hardware-Software Co-design · Systems Architecture
+# Computer Engineering · Hardware-Software Codesign · Systems Architecture
 
 ![Focus](https://img.shields.io/badge/Focus-Embedded%20Systems-blue)
 ![Focus](https://img.shields.io/badge/Focus-Digital%20Logic-purple)
