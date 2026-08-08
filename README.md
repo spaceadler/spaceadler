@@ -57,7 +57,7 @@ Most of what's here follows the same method: start from a given first principle,
 
 <div align="center">
 
-![Languages](https://github.com/spaceadler/spaceadler/blob/main/github-metrics.svg)
+![Languages](github-metrics.svg)
 
 </div>
 
