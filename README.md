@@ -17,7 +17,7 @@ I'm a computer engineering student who's drawn to the layer where hardware physi
 
 That thread runs through most of what ends up in this profile: designing digital logic in VHDL, writing embedded C close to the metal, and working on autonomous systems projects.
 
-I'm oriented towards the aerospace and real-time embedded systems industry. I like to treat chips and the firmware as one design problem instead of two separate ones handed off in sequence, which is why I'm into the specific niche of SoC design and Flight Software Engineering.
+I'm oriented towards the aerospace and real-time embedded systems industry. I like to treat chips and the firmware as one design problem instead of two separate ones handed off in sequence, which is why I'm into the specific niche of SoC design and Flight Software Engineering. [Check out my website!](https://spaceadler.com/en/)
 
 ---
 
