@@ -18,7 +18,9 @@ I like knowing what a program does on the hardware it runs on. So far that has m
 
 I want to work in aerospace, on systems where the chip and the firmware are designed together rather than one after the other. EAGLE, the rocket flight controller I'm designing, is where I'm working that out: an FPGA votes between three IMUs before the flight computer sees the data. After that I want to get into real-time operating systems.
 
-At home, a Raspberry Pi runs my own cloud. One script in my homelab repo sets it up: around 30 apps in Docker, including the Gitea that hosts every repo here, with Pi-hole and Nginx giving each app its own address, all reachable from my devices over Tailscale and from nobody else. On top of it runs adlerOS, a home screen and app store for those apps. It reads the compose files, sorts the apps into collections, and starts, stops, updates and shows the logs of each one. The web page itself has no Docker or root access: it can only queue actions from a fixed list for a small helper to carry out, and every app keeps running with adlerOS stopped.
+At home, a Raspberry Pi runs my own cloud, so none of my data depends on a cloud provider. One script in my homelab repo sets up around 30 apps in Docker: Navidrome for music, Stremio for films and series, Immich for photos, CryptPad as an office suite, Paperless for documents, Vaultwarden for passwords, and the Gitea that hosts every repo here. All of it is reachable from my own devices over Tailscale and from nobody else.
+
+On top of that runs adlerOS, a web-based operating system styled like macOS. Every container becomes an app that opens in its own window, next to a working terminal, a file browser and built-in apps that talk to the services' APIs: Gallery, Music, Documents, Videos, Live TV, and Luna, my take on Obsidian, so I can reach my notes from anywhere. Each device picks its own mode: Desktop like a Mac, the home screen like an iPhone or iPad, TV for a remote, and Car for a phone on the dashboard, with navigation that hands the route to the phone's maps.
 
 [spaceadler.com](https://spaceadler.com/en/)
 
