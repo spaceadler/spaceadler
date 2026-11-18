@@ -1,11 +1,12 @@
 <div align="center">
 
-# Avionics · Hardware-Software Codesign · Systems Architecture
+# spaceadler
+
+Computer engineering student, working toward flight software and FPGA design.
 
 ![Focus](https://img.shields.io/badge/Focus-Embedded%20Systems-blue)
 ![Focus](https://img.shields.io/badge/Focus-Digital%20Logic-purple)
 ![Interest](https://img.shields.io/badge/Interest-Aerospace-lightgrey)
-![Approach](https://img.shields.io/badge/Approach-First%20Principles-orange)
 
 </div>
 
@@ -13,38 +14,49 @@
 
 ## About
 
-I'm a computer engineering student who's drawn to the layer where hardware physically turns into software, where a voltage on a wire becomes a bit, a bit becomes an instruction, and an instruction becomes something you can see, hear, or measure.
+I like knowing what a program does on the hardware it runs on. So far that has meant building a 16-bit computer up from NAND gates in nand2tetris, writing small VHDL designs for an Altera Cyclone II board, and writing C where I care about every byte, like a WAV file whose 44-byte header I lay out by hand.
 
-That thread runs through most of what ends up in this profile: designing digital logic in VHDL, writing embedded C close to the metal, and working on autonomous systems projects.
+I want to work in aerospace, on systems where the chip and the firmware are designed together rather than one after the other. EAGLE, my flight-controller design study, is where I'm working that out. It has no code yet; the design comes first.
 
-I'm oriented towards the aerospace and real-time embedded systems industry. I like to treat chips and the firmware as one design problem instead of two separate ones handed off in sequence, which is why I'm into the specific niche of SoC design and Flight Software Engineering.
+I also run my own server at home: Gitea, which hosts every repo here, behind Nginx and Tailscale, plus around 30 other services in Docker.
 
-[Check out my website!](https://spaceadler.com/en/)
+[spaceadler.com](https://spaceadler.com/en/)
 
 ---
 
-## Tech Stack
+## Projects
 
-**Hardware / Embedded**
+| Project | What it is |
+|---|---|
+| [EAGLE](https://github.com/spaceadler/EAGLE) | Design study for a rocket flight controller: an MCU running FreeRTOS and F´, and an FPGA that votes between three IMUs (TMR). Docs only so far |
+| [spacetetris](https://github.com/spaceadler/spacetetris) | Tetris in C, written to follow MISRA C:2012 and the JPL Power of 10 rules, with the I/O split out so it can be ported to an RTOS |
+| [nand2tetris](https://github.com/spaceadler/nand2tetris) | 29 chips in HDL, from a NAND gate to the ALU, RAM, CPU and a complete computer |
+| [UART_TX](https://github.com/spaceadler/UART_TX) | UART transmitter in VHDL: 50 MHz clock in, 115,200 baud 8N1 out |
+| [NLZ3000](https://git.spaceadler.com/spaceadler/nlz3000) | Counting leading zeros bit by bit vs with one CPU instruction, measured on Arm and x86: 48× and 20× faster |
+| [adlerOS](https://github.com/spaceadler/adleros) | Home screen and app store for a self-hosted Docker server |
+
+---
+
+## Tools
+
+**Use regularly**
 
 ![VHDL](https://img.shields.io/badge/VHDL-purple?style=flat-square)
 ![C](https://img.shields.io/badge/C-00599C?style=flat-square&logo=c&logoColor=white)
-![Assembly](https://img.shields.io/badge/Assembly-6E4C13?style=flat-square)
-![RTOS](https://img.shields.io/badge/RTOS-lightgrey?style=flat-square)
-![FPGA](https://img.shields.io/badge/FPGA-orange?style=flat-square)
-
-**Systems / Infrastructure**
-
+![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
 ![GNU/Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white)
-![Tailscale](https://img.shields.io/badge/Tailscale-000000?style=flat-square&logo=tailscale&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white)
-
-**Tools**
-
+![Tailscale](https://img.shields.io/badge/Tailscale-000000?style=flat-square&logo=tailscale&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white)
+![Quartus](https://img.shields.io/badge/Quartus-0071C5?style=flat-square)
 ![GHDL](https://img.shields.io/badge/GHDL-purple?style=flat-square)
+
+**Learning**
+
+![FreeRTOS](https://img.shields.io/badge/FreeRTOS-lightgrey?style=flat-square)
+![F´](https://img.shields.io/badge/F%C2%B4-lightgrey?style=flat-square)
+![RISC-V](https://img.shields.io/badge/RISC--V-283272?style=flat-square&logo=riscv&logoColor=white)
 ![Vivado](https://img.shields.io/badge/Vivado-A50034?style=flat-square)
 
 ---
@@ -57,14 +69,13 @@ I'm oriented towards the aerospace and real-time embedded systems industry. I li
 
 </div>
 
-
 ---
 
-## Currently Exploring
+## Working On
 
-- Real-time operating systems and firmware for resource-constrained hardware
-- Hardware-software co-design workflows, where the chip and the firmware are designed together
-- Systems and network architecture like self-hosted infrastructure, zero-trust networking, Infrastructure as Code
+- Planning EAGLE's sensor voting on the FPGA and its link to the MCU
+- Porting spacetetris to an RTOS
+- RISC-V (RV32I) at university
 
 ---
 
