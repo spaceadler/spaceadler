@@ -14,9 +14,11 @@ Computer engineering student, working toward flight software and FPGA design.
 
 ## About
 
-I like knowing what a program does on the hardware it runs on. So far that has meant building a 16-bit computer up from NAND gates in nand2tetris, writing small VHDL designs for an Altera Cyclone II board, and writing C where I care about every byte, like a WAV file whose 44-byte header I lay out by hand.
+I want to build flight software and the hardware it runs on as one design, and my three main projects are steps toward that.
 
-I want to work in aerospace, on systems where the chip and the firmware are designed together rather than one after the other. EAGLE, my flight-controller design study, is where I'm working that out. It has no code yet; the design comes first.
+First I built a computer from the bottom up in nand2tetris: a NAND gate, then an ALU, RAM and a 16-bit CPU, ending in a complete machine that runs its own assembly. Then I held software to the rules flight code is written under: spacetetris is a terminal Tetris game that follows MISRA C:2012 and all ten JPL Power of 10 rules, with every deviation documented and a script that re-checks it. That is a lot of engineering for Tetris, which was the point. Now I'm designing EAGLE, a rocket flight controller in which an FPGA votes between three IMUs before the flight computer sees the data. EAGLE has no code yet; I'm writing the design first.
+
+Alongside those I've written VHDL modules for an Altera Cyclone II board, like a UART transmitter and cascaded counters, and C for tight memory budgets. Next I want to get into real-time operating systems, starting with an RTOS port of spacetetris.
 
 I also run my own server at home: Gitea, which hosts every repo here, behind Nginx and Tailscale, plus around 30 other services in Docker.
 
