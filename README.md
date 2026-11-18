@@ -14,11 +14,11 @@ Computer engineering student, working toward flight software and FPGA design.
 
 ## About
 
-I like knowing what a program does on the hardware it runs on. So far that has meant building a 16-bit computer up from NAND gates in nand2tetris, writing a Tetris game in C that follows MISRA C:2012 and the JPL Power of 10 rules (a lot of rigour for Tetris, which was the point), and measuring how much faster one CPU instruction counts leading zeros than a loop does: 48× on Arm, 20× on x86. I also work on Quanser drones in a research lab, moving a QDrone 2 and a QBot 2 from a Matlab ground station to ROS 2 running on the robots themselves.
+I like knowing what a program does on the hardware it runs on. So far that has meant building a 16-bit computer up from NAND gates in nand2tetris, writing a Tetris game in C that follows MISRA C:2012 and the JPL Power of 10 rules (yes, I know), and measuring how much faster one CPU instruction counts leading zeros than a loop does. Those rules were written for flight software, so technically the Tetris could run on a space station. I also work on Quanser drones in a research lab.
 
-I want to work in aerospace, on systems where the chip and the firmware are designed together rather than one after the other. EAGLE, the rocket flight controller I'm designing, is where I'm working that out: an FPGA votes between three IMUs before the flight computer sees the data. It has no code yet; the design comes first. After that I want to get into real-time operating systems.
+I want to work in aerospace, on systems where the chip and the firmware are designed together rather than one after the other. EAGLE, the rocket flight controller I'm designing, is where I'm working that out: an FPGA votes between three IMUs before the flight computer sees the data. After that I want to get into real-time operating systems.
 
-I also run my own server at home: Gitea, which hosts every repo here, behind Nginx and Tailscale, plus around 30 other services in Docker.
+At home, a Raspberry Pi runs my own cloud. One script in my homelab repo sets it up: around 30 apps in Docker, including the Gitea that hosts every repo here, with Pi-hole and Nginx giving each app its own address, all reachable from my devices over Tailscale and from nobody else. On top of it runs adlerOS, a home screen and app store for those apps. It reads the compose files, sorts the apps into collections, and starts, stops, updates and shows the logs of each one. The web page itself has no Docker or root access: it can only queue actions from a fixed list for a small helper to carry out, and every app keeps running with adlerOS stopped.
 
 [spaceadler.com](https://spaceadler.com/en/)
 
