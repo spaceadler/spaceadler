@@ -32,7 +32,7 @@ At home, a Raspberry Pi runs my own cloud: music, films and series, photos, an o
 | [spacetetris](https://github.com/spaceadler/spacetetris) | Tetris in C, written to follow MISRA C:2012 and the JPL Power of 10 rules, with the I/O split out so it can be ported to an RTOS |
 | [nand2tetris](https://github.com/spaceadler/nand2tetris) | 29 chips in HDL, from a NAND gate to the ALU, RAM, CPU and a complete computer |
 | [UART_TX](https://github.com/spaceadler/UART_TX) | UART transmitter in VHDL: 50 MHz clock in, 115,200 baud 8N1 out |
-| [NLZ3000](https://git.spaceadler.com/spaceadler/nlz3000) | Counting leading zeros bit by bit vs with one CPU instruction, measured on Arm and x86: 48× and 20× faster |
+| [NLZ3000](https://github.com/spaceadler/nlz3000) | Counting leading zeros bit by bit vs with one CPU instruction, measured on Arm and x86: 48× and 20× faster |
 | [adlerOS](https://github.com/spaceadler/adleros) | Home screen and app store for a self-hosted Docker server |
 
 ---
